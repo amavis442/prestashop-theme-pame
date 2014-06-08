@@ -3,7 +3,8 @@ div.addresses {
    padding:15px;
    border:1px solid #ccc;
 	font-size:12px;
-   background:#f8f8f8
+   background:#f8f8f8;
+   color:#4e0b0b;
 }
 
 ul.address {

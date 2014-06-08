@@ -424,17 +424,15 @@ function updateNewAccountToAddressBlock()
     });
 }
 
-$(function() {
+//$(function() {
+$(document).ready(function(){
     // GUEST CHECKOUT / NEW ACCOUNT MANAGEMENT
     if ((!isLogged) || (isGuest))
     {
         if (guestCheckoutEnabled && !isLogged)
         {
-            $('#opc_account_choice').hide();
-            //$('#opc_account_form, #opc_invoice_address').hide();
-
-
-                
+            $('#opc_account_choice').show();
+            $('#opc_account_form, #opc_invoice_address').hide();
 
             $('#opc_createAccount').click(function() {
                 $('.is_customer_param').show();
@@ -487,6 +485,8 @@ $(function() {
             $('#new_account_form_content').slideUp('slow');
             return false;
         });
+        
+        
         // LOGIN FORM SENDING
         $('#SubmitLogin').click(function() {
             $.ajax({
@@ -679,6 +679,23 @@ $(function() {
         }
     });
 
+    if ((!isLogged) || (isGuest))
+    {
+        if (guestCheckoutEnabled && !isLogged)
+        {
+                        
+            $('.is_customer_param').hide();
+            $('#opc_account_form').slideDown('slow');
+            $('#is_new_customer').val('0');
+            $('#opc_account_choice, #opc_invoice_address').hide();
+            $('#new_account_title').html(txtInstantCheckout);
+            $('#submitAccount').val('Volgende')
+            $('#submitAccount').prop({id: 'submitGuestAccount', name: 'submitGuestAccount'});
+            updateState();
+            updateNeedIDNumber();
+            updateZipCode();
+        }
+    }
 });
 
 function bindCheckbox()

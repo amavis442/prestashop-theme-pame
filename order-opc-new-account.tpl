@@ -169,17 +169,6 @@
                         {/foreach}
                     </select>
                 </p>
-                {if isset($newsletter) && $newsletter}
-                    <p class="checkbox">
-                        <input type="checkbox" name="newsletter" id="newsletter" value="1" {if isset($guestInformations) && $guestInformations.newsletter}checked="checked"{/if} autocomplete="off"/>
-                        <label for="newsletter">{l s='Sign up for our newsletter!'}</label>
-                    </p>
-                    <p class="checkbox" >
-                        <input type="checkbox"name="optin" id="optin" value="1" {if isset($guestInformations) && $guestInformations.optin}checked="checked"{/if} autocomplete="off"/>
-                        <label for="optin">{l s='Receive special offers from our partners!'}</label>
-                    </p>
-                {/if}
-                <h3>{l s='Delivery address'}</h3>
                 {$stateExist = false}
                 {$postCodeExist = false}
                 {$dniExist = false}

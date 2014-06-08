@@ -95,9 +95,11 @@
 			<!-- END Create account / Guest account / Login block -->
 		{/if}
 		<!-- Carrier -->
-		{include file="$tpl_dir./order-carrier.tpl"}
-		<!-- END Carrier -->
-	
+                {if false}
+                {include file="$tpl_dir./order-carrier.tpl"}
+		<{/if}
+                <!-- END Carrier -->
+                
 		<!-- Payment -->
 		{include file="$tpl_dir./order-payment.tpl"}
 		<!-- END Payment -->

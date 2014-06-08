@@ -11,7 +11,7 @@
 	text-transform:uppercase;
 	background:url(../img/bg_form_h3.png) repeat-x 0 0 #989898;
 }
-#center_column #account-creation_form p {margin:0; padding:0 0 10px 0}
+#center_column #account-creation_form p {margin:0; padding:0 0 10px 0;color:#4e0b0b;}
 #account-creation_form p.required {color:#222}
 #account-creation_form p.required  sup {color:#990000}
 #account-creation_form p.radio span,
@@ -25,6 +25,7 @@
 	width:230px;/* 260 */
 	font-size:14px;
 	text-align:right;
+	color:#4e0b0b;
 }
 #account-creation_form p.radio label {
 	float:none;
