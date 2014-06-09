@@ -88,7 +88,9 @@
 		{include file="$tpl_dir./shopping-cart.tpl"}
 		<!-- End Shopping Cart -->
 		{if $isLogged AND !$isGuest}
-			{include file="$tpl_dir./order-address.tpl"}
+                    {if false}
+                    {include file="$tpl_dir./order-address.tpl"}
+                    {/if}
 		{else}
 			<!-- Create account / Guest account / Login block -->
 			{include file="$tpl_dir./order-opc-new-account.tpl"}
@@ -101,8 +103,8 @@
                 <!-- END Carrier -->
                 
 		<!-- Payment -->
-		{include file="$tpl_dir./order-payment.tpl"}
-		<!-- END Payment -->
+                {include file="$tpl_dir./order-payment.tpl"}
+                <!-- END Payment -->
 	{else}
 		{capture name=path}{l s='Your shopping cart'}{/capture}
 		{include file="$tpl_dir./breadcrumb.tpl"}
