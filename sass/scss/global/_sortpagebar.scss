@@ -1,0 +1,54 @@
+/* CMS Editor */
+div.rte, .mceContentBody {
+    background:none repeat scroll 0 0 transparant !important;
+    color:#FFF!important;
+    text-align:left;
+}
+
+/* barre comparaison / tri ********************************************************************* */
+.content_sortPagiBar {margin:20px 0;}
+#center_column .sortPagiBar {
+    padding:10px;
+    font:normal 11px Arial, Verdana, sans-serif;
+    color:#4e0b0b;;
+    background:#eee;
+}
+#center_column .sortPagiBar strong {color:#000;}
+#center_column .sortPagiBar p {padding:0;}
+#center_column .sortPagiBar form {display:inline-block;}
+
+.ie7 #center_column .sortPagiBar form {display:inline;}
+
+.sortPagiBar #productsSortForm {float:right;}
+.sortPagiBar select#selectPrductSort {
+    margin:0 0 0 10px;
+    color:#000;
+    border:1px solid #ccc
+}
+
+.sortPagiBar .bt_compare {
+    padding:3px 7px;
+    border:none;
+    color:#fff;
+    text-shadow:0 1px 0 #000;
+    background:url(../img/bg_bt_compare.gif) repeat-x 0 0 #111;
+}
+
+.sortPagiBar .nbrItemPage {margin-left:40px;}
+
+.sortPagiBar .PrductSort {float:left;}
+
+.sortPagiBar .nbrProduct {
+    display:inline-block;
+    padding:0 10px;
+}
+
+.sortPagiBar #nb_item {border:1px solid #ccc}
+
+/* Products viewed block *********** */
+#viewed-products_block_left li .text_desc .s_title_block a {
+    color: #eee;
+}
+#viewed-products_block_left li .text_desc p {
+    color: #ccc;
+}

@@ -1,0 +1,62 @@
+/* title *************************************************************************************** */
+h1 {
+    margin-bottom:20px;
+    font-size:24px;
+    line-height: 22px
+}
+h2 {
+    padding-bottom:20px;
+    font-size:18px
+}
+h3 {
+    padding-bottom:20px;
+    font-size:16px
+}
+.title_block {
+    padding-bottom:20px;
+    font-size:14px
+}
+
+.hide-left-column #left_column {display:none}
+.hide-left-column #center_column {width:757px}
+
+/* text **************************************************************************************** */
+p {padding-bottom:20px}
+
+p em {font-style:italic}
+
+.warning {
+    margin:0 0 10px 0;
+    padding:10px;
+    border:1px solid #e6db55;
+    font-size:13px;
+    background:#ffffe0;
+    color: #4e0b0b;
+}
+.success {
+    margin:0 0 10px 0;
+    padding:10px;
+    border:1px solid #339900;
+    font-size:13px;
+    background: #d3ffab;
+    color:#4e0b0b;
+}
+.error {
+    margin:0 0 10px 0;
+    padding:10px;
+    border:1px solid #990000;
+    font-size:13px;
+    background:#ffcccc;
+    color: #4e0b0b;
+}
+.error ol {margin-left:20px}
+.error p.lnk {
+    margin-top:20px;
+    padding:0;
+    font-size:11px
+}
+.required {color:#990000}
+
+.hint {
+    color:grey;
+}

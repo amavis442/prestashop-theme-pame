@@ -1,0 +1,77 @@
+/* BLOCK .block ******************************************************************************** */
+
+.block {
+    margin-bottom:20px;
+}
+
+#footer .block {
+    margin-bottom:0;
+}
+
+.block .title_block, .block h4 {
+    padding:6px 11px;
+    font-size:12px;
+    color:$font-color;
+    /* Wat een geouwehoer */
+    /*text-shadow:0 1px 0 #000;*/
+    text-transform:uppercase;
+    background: $menu-color;
+    font-weight: bold;
+}
+
+.block .title_block a, .block h4 a {
+    color:$font-color
+}
+
+.block ul {
+    list-style-type:none;
+}
+
+.block li.last {
+    border:none;
+}
+
+.block li a {
+    display:block;
+    color:$font-color;
+}
+
+/* BLOCK .products_block *********************************************************************** */
+.products_block {}
+
+.products_block li {
+    float:left;
+}
+
+.products_block li img {
+    border:1px solid #d1d1d1;
+}
+
+/* BLOCK customer privacy ******************************************************************* */
+.account_creation label{
+    float:left;
+    padding-top:5px;
+    width:80%;
+    text-align:left;
+    cursor:pointer;
+}
+
+/* BLOCK .footer_links (cms pages) ************************************************************* */
+ul.footer_links {
+    list-style-type:none;
+    margin-bottom:20px;
+}
+
+ul.footer_links li {
+    float:left;
+}
+
+ul.footer_links li.f_right {
+    float:right;
+}
+
+ul.footer_links li .icon {
+    position:relative;
+    top:6px;
+    left:0;
+}

@@ -1,0 +1,73 @@
+/* ************************************************************************************************
+                PAGE MANUFACTURER
+************************************************************************************************ */
+#manufacturer .nbrmanufacturer {
+    margin: 15px 0 10px;
+    padding: 8px 7px;
+    font-size:12px;
+    color: #000;
+    background: none repeat scroll 0 0 #f0f0f0
+}
+
+#manufacturer #product_list {margin-top:15px}
+#product_list li {
+    background-color: #eee;
+}
+ul#manufacturers_list {list-style-type:none}
+ul#manufacturers_list li {
+    margin-bottom: 14px;
+    padding: 12px 8px;
+    border: 1px solid #eee;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius:3px;
+}
+ul#manufacturers_list li a.lnk_img {
+    display: block;
+    float: left;
+}
+ul#manufacturers_list li img {
+    display: block;
+    float: left;
+    margin-right: 14px;
+    border: 1px solid #ccc;
+    vertical-align: bottom
+}
+ul#manufacturers_list li h3 {
+    padding: 0 0 10px;
+    font-size: 13px;
+    color: #000
+}
+ul#manufacturers_list li .description {
+    overflow: hidden;
+    padding: 0;
+    font-size:12px;
+    color:#eee
+}
+ul#manufacturers_list li .right_side {float:right;}
+
+.description_box {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px #E2E2E2;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.description_box p {
+    margin: 0;
+    padding: 0 10px 5px;
+}
+.description_box .hide_desc {
+    display: none;
+}
+.description_box .lnk_more {
+    background: url("../img/arrow_right_1.png") no-repeat scroll 100% 4px transparent;
+    color: #0088CC;
+    padding: 0 10px;
+}
+.description_box ul {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}

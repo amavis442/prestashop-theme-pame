@@ -1,0 +1,43 @@
+/* CART steps *********************************************************************** */
+ul#order_step { background-color: white;}
+ul.step {
+    list-style-type:none;
+    margin-bottom:30px;
+    height:52px;
+    width:757px
+}
+ul.step li {
+    float:left;
+    height:52px;
+    width:151px;
+    text-align:center;
+    text-transform:uppercase;
+    background:url(../img/step_standard.gif) no-repeat center bottom transparent
+}
+ul.step li a, ul.step li.step_current span, ul.step li.step_current_end span {
+    display:inline-block;
+    padding:8px 10px 12px;
+    color:#000;
+    background:url(../img/step_current_span.gif) no-repeat center bottom transparent
+}
+ul.step li.step_current {
+    font-weight:bold;
+    background:url(../img/step_current.gif) no-repeat center bottom transparent
+}
+
+ul.step li.step_current_end {
+    font-weight:bold;
+    background:url(../img/step_end_current.gif) no-repeat center bottom transparent
+}
+ul.step li.step_todo span {
+    display:inline-block;
+    padding:8px 10px 6px;
+    color:#999;
+    text-shadow:0 1px 0 #fff;
+    background:#eee
+}
+ul.step li.step_done {
+    font-weight:bold;
+    background:url(../img/step_done.gif) no-repeat center bottom transparent
+}
+/*ul.step li#step_end {background:url(../img/step_end.gif) no-repeat center bottom transparent}*/

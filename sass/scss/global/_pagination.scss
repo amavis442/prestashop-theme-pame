@@ -1,0 +1,49 @@
+/* pagination ********************************************************************************** */
+form.pagination {display:none;}
+
+div.pagination {
+    margin:10px 0;
+    text-align: center
+}
+ul.pagination {list-style-type:none}
+ul.pagination li {display: inline;}
+ul.pagination a, ul.pagination span {
+    display:inline-block;
+    height:24px;
+    width:24px;
+    border:1px solid #eee;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    font:11px/24px Arial,Verdana,sans-serif;
+    color:#999
+}
+ul.pagination a {
+    text-align:center;
+}
+ul.pagination a:hover {
+    color:#333;
+    border:1px solid #333
+}
+ul.pagination .current span {
+    color:#000;
+    border:1px solid #fff
+}
+ul.pagination li.disabled span {color:#ccc}
+
+#pagination_previous, .pagination_previous {float:left}
+#pagination_next, .pagination_next {float:right}
+
+.ie7 #pagination_previous, .ie7 .pagination_previous,
+.ie7 #pagination_next, .ie7 .pagination_next {float:none}
+
+ul.pagination .pagination_previous a,ul.pagination .pagination_previous span,
+ul.pagination .pagination_next a, ul.pagination .pagination_next span {
+    padding:0 8px;
+    width:auto;
+}
+#pagination_previous, .pagination_previous span,
+#pagination_next, .pagination_next span {
+    color:#ccc;
+    border:1px solid #eee
+}

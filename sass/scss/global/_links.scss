@@ -1,0 +1,26 @@
+/* link **************************************************************************************** */
+a, a:active, a:visited {
+    text-decoration:none;
+    outline: medium none;
+    color: #4e0b0b;
+}
+a:hover {text-decoration:underline}
+
+#header a, a:active, a:visited,a:hover {
+    /*  color:#fff; */
+}
+
+#header_links a, a:active, a:visited,a:hover {
+    color:#fff;
+}
+
+/* HACK IOS ipad, iphone */
+input[type="text"], input[type="email"], input[type="search"], input[type="password"], input[type="submit"], input[type="image"] {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    -webkit-border-radius:0px !important;
+    -moz-border-radius:0px !important;
+    border-radius:0px !important;
+}
+

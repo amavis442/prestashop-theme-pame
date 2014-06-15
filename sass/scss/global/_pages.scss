@@ -1,0 +1,132 @@
+/* ************************************************************************************************ */
+
+/* ************************************************************************************************
+                paiment - CONFIRMATION
+************************************************************************************************ */
+#orderconfirmation #left_column {display:none}
+#orderconfirmation #center_column{width:757px}
+
+
+/* ************************************************************************************************
+                PAGE PASSWORD
+************************************************************************************************ */
+#form_forgotpassword fieldset {
+    padding: 10px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #eee
+}
+#form_forgotpassword  p.text label {
+    display: inline-block;
+    padding-right: 10px;
+    width: 174px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right
+}
+#form_forgotpassword  p.text input {
+    padding: 0 5px;
+    height: 20px;
+    width: 288px;
+    border: 1px solid #ccc;
+    background: url(../img/bg_input.png) repeat-x 0 0 #fff
+}
+#form_forgotpassword p.submit {
+    margin-right:25px;
+    padding-bottom:5px;
+    text-align:right
+}
+
+#password .icon {
+    position:relative;
+    top:6px;
+}
+
+
+@import "_page_address.scss";
+
+/* ************************************************************************************************
+                PAGE ORDER-SPLIP
+************************************************************************************************ */
+#order-slip #left_column {display:none}
+#order-slip #center_column{width:757px}
+
+#order-slip #order-list {border-bottom:1px solid #999}
+#order-slip #order-list td {
+    border-top: 1px solid #ccc;
+    border-bottom:none;
+}
+#order-slip #order-list td.history_invoice {border-right:none}
+
+
+/* ************************************************************************************************
+                PAGE DISCOUNT
+************************************************************************************************ */
+#discount #left_column {display:none}
+#discount #center_column{width:757px}
+
+#discount .table_block tr.last_item td {border-bottom:1px solid #999}
+#discount .table_block td.discount_expiration_date {border-right:1px solid #999}
+#discount .table_block td.discount_value {white-space:nowrap}
+
+
+/* ************************************************************************************************
+                PAGE ORDER FOLLOW
+************************************************************************************************ */
+#order-follow #left_column {display:none}
+#order-follow #center_column{width:757px}
+
+
+/* ************************************************************************************************
+                PAGE NEW-PRODUCTS
+************************************************************************************************ */
+#newproducts .sortPagiBar {margin-bottom:20px}
+
+
+/* ************************************************************************************************
+                PAGE BEST SALES
+************************************************************************************************ */
+#bestsales .sortPagiBar {margin-bottom:20px}
+#best-sellers_block_right .lnk .button_large {
+    color:#eee;
+}
+/* ************************************************************************************************
+                PAGE PRICES DROP SALES
+************************************************************************************************ */
+#pricesdrop .sortPagiBar {margin-bottom:20px}
+
+
+@import "_page_manufacturer.scss";
+@import "_page_supplier.scss";
+
+
+/* ************************************************************************************************
+                PAGE SEARCH
+************************************************************************************************ */
+#search h3.nbresult {
+    margin:0 0 10px 0;
+    padding:10px;
+    border:1px solid #e6db55;
+    font-size:13px;
+    background:#ffffe0
+}
+#search .sortPagiBar {margin-bottom:20px}
+
+
+@import "_page_404.scss";
+
+
+@import "_addons.scss";
+
+
+/* ************************************************************************************************
+                guest tracking
+************************************************************************************************ */
+
+#guest-tracking fieldset p:first-child {
+    padding-top: 10px;
+}
+#guest-tracking fieldset p:last-child {
+    padding-bottom: 10px;
+}

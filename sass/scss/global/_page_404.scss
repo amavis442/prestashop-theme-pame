@@ -1,0 +1,59 @@
+/* ************************************************************************************************
+                PAGE 404
+************************************************************************************************ */
+#pagenotfound #left_column,
+#pagenotfound #right_column,
+#pagenotfound #footer {display:none}
+
+#pagenotfound #left_column,
+#pagenotfound #right_column,
+#pagenotfound #footer {display:none}
+
+#pagenotfound #center_column {width:940px;}
+
+#pagenotfound .pagenotfound {
+    padding:30px 300px 0 0;
+    height:330px;
+    font-size:14px;
+    background:url(../img/bg_404.png) no-repeat 100% 0
+}
+#pagenotfound h3 {
+    font-weight:normal;
+    font-size:14px
+}
+#pagenotfound fieldset {border:none}
+#pagenotfound fieldset label {color:#333}
+#pagenotfound  #search_query {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom: 1px solid #666;
+    border-left: 1px solid #666;
+    border-right: 1px solid #fff !important;
+    border-top: 1px solid #666;
+    padding: 0 5px;
+    height: 24px;
+    width: 200px;
+    color: #ccc;
+    background: url(../../../modules/blocksearch/img/bg_search_input.png) repeat-x scroll 0 0 #fff
+}
+#pagenotfound .button_small {
+    padding: 4px 7px;
+    border: medium none;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0;
+    color: #fff;
+    text-transform: uppercase;
+    background: url("../../../modules/blocksearch/img/bg_search_submit.png") repeat-x scroll 0 0 #101010
+}
+#pagenotfound .pagenotfound a {
+    font-weight:bold;
+    color:#333
+}
+#pagenotfound .pagenotfound .icon {
+    position:relative;
+    top:3px
+}

@@ -1,0 +1,178 @@
+/* ************************************************************************************************
+                addons payment cheque
+************************************************************************************************ */
+#module-cheque-payment #left_column {display:none}
+#module-cheque-payment #center_column{width:757px}
+
+
+/* ************************************************************************************************
+                addons payment bankwire
+************************************************************************************************ */
+#module-bankwire-payment #left_column {display:none}
+#module-bankwire-payment #center_column{width:757px}
+
+
+/* ************************************************************************************************
+                addons google checkout
+************************************************************************************************ */
+#module-gcheckout-payment #left_column {display:none}
+#module-gcheckout-payment #center_column{width:757px}
+
+/* ************************************************************************************************
+                addons paypal
+************************************************************************************************ */
+#module-payment-submit #left_column {display:none}
+#module-payment-submit #center_column{width:757px}
+
+
+/* ************************************************************************************************
+                addons cashondelivery validation
+************************************************************************************************ */
+#module-cashondelivery-validation #left_column {display:none}
+#module-cashondelivery-validation #center_column{width:757px}
+
+
+/* ************************************************************************************************
+                addon RerversoForm
+************************************************************************************************ */
+#account-creation_form fieldset.reversoform {padding:10px !important}
+#account-creation_form fieldset.reversoform  .text label{
+    display:block;
+    padding:0 0 10px 0;
+    width:100%;
+    text-align:left;
+}
+#account-creation_form fieldset.reversoform .infos-sup {
+    padding:0 !important;
+    font-size:10px;
+    font-style:italic;
+    text-align:right
+}
+/* ************************************************************************************************
+                addon customer privacy
+************************************************************************************************ */
+#account-creation_form fieldset.customerprivacy label, fieldset.customerprivacy label{
+    padding-bottom:0;
+    font-size:14px;
+    text-align:left;
+    cursor:pointer
+}
+
+/* ************************************************************************************************
+                addon referralprogram
+************************************************************************************************ */
+#module-referralprogram-referralprogram-program #left_column {display:none}
+#module-referralprogram-referralprogram-program #center_column{width:757px}
+
+#footer .myaccount li.referralprogram img {display:none}
+
+#module-referralprogram-referralprogram-program .sheets {padding-top:10px}
+
+#module-referralprogram-referralprogram-program form p.checkbox {font-weight:bold}
+#module-referralprogram-referralprogram-program form p.checkbox a {text-decoration:underline}
+#module-referralprogram-referralprogram-program form p.submit {text-align:right}
+#module-referralprogram-referralprogram-program form p.see_email {
+    padding-left:10px;
+    color: #0088cc;
+    background:url(../img/arrow_right_1.png) no-repeat 0 4px;
+}
+#module-referralprogram-referralprogram-program form p.see_email a {
+    color: #0088cc;
+    text-decoration:underline
+}
+
+/* ************************************************************************************************
+                addon loyalty
+************************************************************************************************ */
+#module-loyalty-default #left_column {display:none}
+#module-loyalty-default #center_column{width:757px}
+
+#product p#loyalty {
+    padding:10px 0 0 20px;
+    border-top:1px solid #ccc;
+    background:url(../img/icon/info.png) no-repeat 0 8px;
+    margin-top: 10px;
+}
+
+#footer .myaccount li.loyalty img {display:none}
+
+
+/* ************************************************************************************************
+                addon Livezilla
+************************************************************************************************ */
+#livezilla_lnk  {
+    margin:10px 0;
+    text-align: right
+}
+#livezilla_lnk a {
+    display:inline-block;
+    padding:6px 8px 8px 8px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    font:bold 10px Arial,Verdana,sans-serif;
+    color:#fff;
+    text-shadow: 0 -1px 0 #000;
+    background: url(../img/bg_bt_compare.gif) repeat-x scroll 0 0 #000
+}
+#livezilla_lnk a:hover {text-decoration:none}
+
+/* ************************************************************************************************
+                addons comments products
+************************************************************************************************ */
+form#sendComment  fieldset{
+    padding:10px;
+    border:1px solid #ccc;
+    background:#eee
+}
+form#sendComment h3 {font-size:14px;}
+#new_comment_form p.text {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#sendComment p.text label,
+#sendComment p.textarea label {
+    display: block;
+    margin: 12px 0 4px;
+    font-weight: bold;
+    font-size: 12px;
+}
+#sendComment p.text input {
+    padding: 0 5px;
+    height: 28px;
+    width: 498px;
+    border: 1px solid #ccc;
+    background: url(../img/bg_input.png) repeat-x 0 0 #fff;
+}
+#sendComment p.textarea textarea {
+    height:80px;
+    width:508px;
+    border:1px solid #ccc;
+}
+#sendComment p.submit {
+    padding:0;
+    text-align:right
+}
+
+#sendComment p.closeform {
+    float:right;
+    padding:0;
+    height:12px;
+    width:12px;
+    text-indent:-5000px;
+    background:url(../img/icon/delete.gif) no-repeat 0 0
+}
+
+.star {
+    position: relative;
+    top:2px;
+    float: left;
+    height: 12px;
+    width: 12px;
+    overflow: hidden;
+    text-indent: -999em;
+    cursor: pointer
+}
+.star, .star a { background: url(../../../modules/productcomments/img/star.gif) no-repeat 0 0 }
+div.star_on a { background-position: 0 -12px }
+div.star_hover a, div.star a:hover { background-position: 0 -12px }

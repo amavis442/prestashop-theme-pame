@@ -1,0 +1,79 @@
+/* ************************************************************************************************
+                PRODUCT PAGE
+************************************************************************************************ */
+
+/* BLOCK idTabs ******************************************************************************** */
+.idTabs {
+    list-style-type: none;
+    margin-top: 20px;
+    border-bottom: 8px solid #f7b900
+}
+/*
+#more_info_block #more_info_sheets .idTab1 {
+        background-color: #f7b900;
+}
+*/
+ul.idTabs li {
+    float: left;
+    margin-right: 1px
+}
+.idTabs a {
+    display:block;
+    padding:10px 10px 7px 10px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#fff;
+    background:#000
+}
+.idTabs .selected {
+    color:#000;
+    background: url(../img/bg_li_idTabs.png) repeat-x 0 0
+}
+
+#more_info_sheets {
+    padding:0 0 10px;
+    /* border:1px solid #F7B900; */
+    background-color: #eee;
+}
+#more_info_block{
+    padding: 0 0 10px;
+}
+#more_info_sheets ul,
+#more_info_sheets ol,
+#more_info_sheets dl {margin-left:20px}
+#more_info_sheets em {font-style:italic}
+
+#more_info_sheets .product_desc{
+    margin-top:5px
+}
+
+#more_info_sheets .product_desc .product_image{
+    float:left
+}
+
+#more_info_sheets .product_desc .block_description{
+    float:left;
+    margin-left:10px;
+    width:420px
+}
+#more_info_sheets .product_desc .clear_product_desc{
+    clear:both;
+    height:0px;
+    line-height:0px
+}
+
+/* Make sure lists are correctly displayed in tinyMCE BO edition mode too */
+#short_description_content ul,
+#short_description_content ol,
+#short_description_content dl,
+#tinymce ul,
+#tinymce ol,
+#tinymce dl {margin-left:20px}
+
+.block_hidden_only_for_screen {display:none}
+
+/* ************************************************************************************************
+                PAGE AUTHENTIFICATION
+************************************************************************************************ */
+#authentication #left_column {display:none}
+#authentication #center_column{width:757px}

@@ -1,0 +1,75 @@
+/* module productcomments ********************************************************************** */
+.rating {
+    clear: both;
+    display: block;
+    margin: 2em;
+    cursor: pointer;
+}
+.rating:after {
+    content: '.';
+    display: block;
+    height: 0;
+    width: 0;
+    clear: both;
+    visibility: hidden
+}
+.cancel, .star {
+    overflow: hidden;
+    float: left;
+    margin:0 1px 0 0;
+    width: 16px;
+    height: 16px;
+    text-indent: -999em;
+    cursor: pointer
+}
+.cancel, .cancel a { background: url(../../../modules/productcomments/img/delete.gif) no-repeat 0 -16px !important }
+.star, .star a { background: url(../../../modules/productcomments/img/star.gif) no-repeat 0 0 }
+.cancel a, .star a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: 0 0
+}
+div.star_on a { background-position: 0 -16px }
+div.star_hover a, div.star a:hover { background-position: 0 -32px }
+.pack_content { margin: 10px 0 10px 0 }
+.pack_price {
+    float: right;
+    margin-right: 3px;
+    font-size: 12px
+}
+.confirmation {
+    margin: 0 0 10px;
+    padding: 10px;
+    border: 1px solid #e6db55;
+    font-size: 13px;
+    background: none repeat scroll 0 0 #ffffe0;
+}
+
+#page .rte {
+    background: transparent none repeat scroll 0 0;
+    color: #4e0b0b;
+    padding:10px;
+}
+
+.listcomment {
+    list-style-type:none;
+    margin:0 0 20px 0 !important;
+}
+.listcomment li {
+    padding:10px 0;
+    border-bottom:1px dotted #ccc;
+    color:#eee
+}
+.listcomment .titlecomment {
+    display:block;
+    font-weight:bold;
+    font-size:12px;
+    color:#333
+}
+.listcomment .txtcomment {
+    display:block;
+    padding:5px 0;
+    color:#333
+}
+.listcomment .authorcomment {}
