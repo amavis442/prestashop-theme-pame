@@ -1,0 +1,76 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\000031}}
+h1 {
+  margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\000033}}
+.resumecat {
+  margin: 15px 0 10px 0;
+  padding: 8px 7px;
+  color: #000;
+  background: #f0f0f0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000310}}
+.content_scene_cat {
+  padding: 5px;
+  border: 1px solid #ccc;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 1px #e2e2e2;
+  -webkit-box-shadow: 0 1px 1px #e2e2e2;
+  box-shadow: 0 1px 1px #e2e2e2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000321}}
+.cat_desc {
+  font-size: 12px;
+  line-height: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000325}}
+.cat_desc p {
+  padding: 0 10px 5px 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000326}}
+.cat_desc .lnk_more {
+  padding: 0 10px;
+  color: #0088CC;
+  background: url(../img/arrow_right_1.png) no-repeat 100% 4px transparent; }
+
+/* ************************************************************************************************
+      SUB CATEGORIES
+************************************************************************************************ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000336}}
+#subcategories {
+  margin-top: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000337}}
+#subcategories h3 {
+  padding: 14px 12px;
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 #666;
+  background: url(../img/bg_table_th.png) repeat-x 0 0 #999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000346}}
+.inline_list {
+  list-style-type: none;
+  margin-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000350}}
+.inline_list li {
+  padding: 10px 0;
+  border-bottom: 1px dotted #cccccc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000354}}
+.inline_list li .img {
+  float: left;
+  margin-right: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000358}}
+.inline_list li img {
+  border: 1px solid #cccccc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000361}}
+.inline_list li .cat_name {
+  font-weight: bold;
+  font-size: 13px; }

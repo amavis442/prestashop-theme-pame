@@ -1,0 +1,11 @@
+/* CMS pages ****************************************************************************** */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/cms\.scss}line{font-family:\000034}}
+#cms #center_column ul,
+#cms #center_column ol,
+#cms #center_column dl {
+  margin-left: 25px;
+  margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/cms\.scss}line{font-family:\000035}}
+#cms #center_column li {
+  margin-bottom: 5px; }

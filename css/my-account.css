@@ -1,0 +1,38 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/my-account\.scss}line{font-family:\000031}}
+#my-account #left_column {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/my-account\.scss}line{font-family:\000032}}
+#my-account #center_column {
+  width: 757px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/my-account\.scss}line{font-family:\000033}}
+#my-account #center_column h1 {
+  margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/my-account\.scss}line{font-family:\000035}}
+#my-account #center_column .title_block {
+  font-weight: normal;
+  font-size: 12px;
+  color: #ddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/my-account\.scss}line{font-family:\0000311}}
+#my-account .myaccount_lnk_list {
+  list-style-type: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/my-account\.scss}line{font-family:\0000312}}
+#my-account .myaccount_lnk_list li {
+  font-size: 13px;
+  line-height: 36px;
+  color: #ddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/my-account\.scss}line{font-family:\0000317}}
+#my-account .myaccount_lnk_list li a {
+  color: #ddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/my-account\.scss}line{font-family:\0000322}}
+#my-account .myaccount_lnk_list img.icon,
+#my-account p img.icon {
+  position: relative;
+  top: 6px;
+  left: 0; }
