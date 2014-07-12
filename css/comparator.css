@@ -1,77 +1,90 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\000031}}
+/* line 1, ../sass/scss/comparator.scss */
 table#product_comparison {
   width: 100%;
   border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid #ccc;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\000036}}
+/* line 6, ../sass/scss/comparator.scss */
 #product_comparison tr.comparison_header {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\000037}}
+/* line 7, ../sass/scss/comparator.scss */
 #product_comparison td {
   padding: 6px;
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000314}}
+/* line 14, ../sass/scss/comparator.scss */
 #product_comparison td.td_empty {
   border: none;
-  background: #fff; }
+  background: #fff;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000319}}
+/* line 19, ../sass/scss/comparator.scss */
 #product_comparison tr.comparison_header,
 #product_comparison td.comparison_feature_even {
-  background: #f8f8f8; }
+  background: #f8f8f8;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000321}}
+/* line 21, ../sass/scss/comparator.scss */
 #product_comparison .product_image {
   display: block;
-  text-align: center; }
+  text-align: center;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000325}}
+/* line 25, ../sass/scss/comparator.scss */
 #product_comparison .product_image img {
-  border: 1px solid #ccc; }
+  border: 1px solid #ccc;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000326}}
+/* line 26, ../sass/scss/comparator.scss */
 #product_comparison .s_title_block {
   margin-bottom: 10px;
   font-size: 12px;
   color: #000;
   font-weight: bold;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000333}}
+/* line 33, ../sass/scss/comparator.scss */
 #product_comparison .product_desc {
   padding-bottom: 5px;
   height: 40px;
-  color: #666666; }
+  color: #666666;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000338}}
+/* line 38, ../sass/scss/comparator.scss */
 #product_comparison .lnk_more {
   display: block;
   margin-bottom: 10px;
   padding-left: 10px;
   color: #0088cc;
-  background: url(../img/arrow_right_1.png) no-repeat 0 4px transparent; }
+  background: url(../img/arrow_right_1.png) no-repeat 0 4px transparent;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000346}}
+/* line 46, ../sass/scss/comparator.scss */
 .prices_container {
-  height: 50px; }
+  height: 50px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000347}}
+/* line 47, ../sass/scss/comparator.scss */
 .price_container {
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000348}}
+/* line 48, ../sass/scss/comparator.scss */
 #product_comparison .price {
   font-weight: bold;
   font-size: 14px;
-  color: #990000; }
+  color: #990000;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000353}}
+/* line 53, ../sass/scss/comparator.scss */
 .discount {
   display: inline-block;
   padding: 1px 5px;
@@ -79,27 +92,31 @@ table#product_comparison {
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
-  background: #9b0000; }
+  background: #9b0000;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000363}}
+/* line 63, ../sass/scss/comparator.scss */
 .comparison_availability_statut {
-  display: none; }
+  display: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000365}}
+/* line 65, ../sass/scss/comparator.scss */
 #product_comparison .cmp_remove {
   display: block;
   margin-bottom: 10px;
   padding-right: 16px;
   font-weight: bold;
   text-align: right;
-  background: url(../img/icon/delete.gif) no-repeat 100% 1px transparent; }
+  background: url(../img/icon/delete.gif) no-repeat 100% 1px transparent;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000374}}
+/* line 74, ../sass/scss/comparator.scss */
 .ajax_add_to_cart_button {
   margin-left: 9px;
-  padding-left: 20px !important; }
+  padding-left: 20px !important;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/comparator\.scss}line{font-family:\0000378}}
+/* line 78, ../sass/scss/comparator.scss */
 .ajax_add_to_cart_button span {
   display: block;
   position: absolute;
@@ -107,4 +124,5 @@ table#product_comparison {
   height: 26px;
   left: -12px;
   width: 26px;
-  background: url(../img/icon/pict_add_cart.png) no-repeat 0 0 transparent; }
+  background: url(../img/icon/pict_add_cart.png) no-repeat 0 0 transparent;
+}

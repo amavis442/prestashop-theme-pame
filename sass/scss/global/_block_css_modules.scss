@@ -10,7 +10,7 @@
     display:block;
     padding:7px 11px 5px 22px;
     color:#fff;
-    background:url(/themes/pame/img/arrow_right_2.png) no-repeat 10px 10px transparent
+    background:url($left-block-arrow) no-repeat 10px 10px transparent
 }
 
 #categories_block_left  li ul {margin-left:40px}
@@ -53,7 +53,7 @@
     display:block;
     padding:7px 11px 5px 22px;
     color:#fff;
-    background:url(/themes/pame/img/arrow_right_2.png) no-repeat 10px 10px transparent;
+    background:url($left-block-arrow) no-repeat 10px 10px transparent;
 }
 
 tr.subitem > td:first-child + td {
@@ -84,7 +84,7 @@ tr.subitem > td:first-child + td {
     display:block;
     padding:7px 11px 5px 22px;
     color:#fff;
-    background:url(../../../modules/blocklink/img/arrow_right_2.png) no-repeat 10px 10px transparent;
+    background:url($left-block-arrow) no-repeat 10px 10px transparent;
 }
 
 
@@ -96,7 +96,7 @@ tr.subitem > td:first-child + td {
     display:block;
     padding:7px 11px 5px 22px;
     color:#fff;
-    background:url(../../../modules/blockmanufacturer/img/arrow_right_2.png) no-repeat 10px 10px transparent
+    background:url($left-block-arrow) no-repeat 10px 10px transparent
 }
 
 
@@ -129,7 +129,7 @@ tr.subitem > td:first-child + td {
     display:block;
     padding:7px 11px 5px 22px;
     color:#333;
-    background:url(../../../modules/blockrss/img/arrow_right_2.png) no-repeat 10px 10px transparent
+    background:url($left-block-arrow) no-repeat 10px 10px transparent
 }
 
 
@@ -161,7 +161,7 @@ tr.subitem > td:first-child + td {
     display:block;
     padding:7px 11px 5px 22px;
     color:#fff;
-    background:url(../../../modules/blocksupplier/img/arrow_right_2.png) no-repeat 10px 10px transparent
+    background:url($left-block-arrow) no-repeat 10px 10px transparent
 }
 
 .blocksupplier form {

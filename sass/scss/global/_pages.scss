@@ -1,3 +1,4 @@
+@import "../_constants.scss";
 /* ************************************************************************************************ */
 
 /* ************************************************************************************************
@@ -23,8 +24,10 @@
     width: 174px;
     font-weight: bold;
     font-size: 12px;
-    text-align: right
+    text-align: right;
+    color:$block-font-color;
 }
+
 #form_forgotpassword  p.text input {
     padding: 0 5px;
     height: 20px;
@@ -32,6 +35,7 @@
     border: 1px solid #ccc;
     background: url(../img/bg_input.png) repeat-x 0 0 #fff
 }
+
 #form_forgotpassword p.submit {
     margin-right:25px;
     padding-bottom:5px;
@@ -43,6 +47,9 @@
     top:6px;
 }
 
+p.text a {
+    color:#ddd;
+}
 
 @import "_page_address.scss";
 

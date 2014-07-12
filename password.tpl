@@ -48,6 +48,6 @@
 	</fieldset>
 </form>
 {/if}
-<p class="clear">
+<p class="clear text">
 	<a href="{$link->getPageLink('authentication', true)}" title="{l s='Return to Login'}" rel="nofollow"><img src="{$img_dir}icon/my-account.gif" alt="{l s='Return to Login'}" class="icon" /></a><a href="{$link->getPageLink('authentication')|escape:'html'}" title="{l s='Back to Login'}" rel="nofollow">{l s='Back to Login'}</a>
 </p>

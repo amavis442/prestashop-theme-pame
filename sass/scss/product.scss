@@ -1,3 +1,5 @@
+@import "_constants.scss";
+
 /* product desc */
 /* primary_block ***************************************************************************** */
 #primary_block {
@@ -305,7 +307,7 @@ span.view_scroll_spacer {
     font-weight:700;
     font-size:24px;
     line-height:18px;
-    color:#9b0000;
+    color:$font-color;
 }
 
 #reduction_percent,#reduction_amount {

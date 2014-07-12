@@ -1,3 +1,5 @@
+@import "_constants.scss";
+
 div.addresses {
     position:relative;
     padding:15px;
@@ -5,14 +7,19 @@ div.addresses {
     font-size:12px;
     background:#f8f8f8;
     color:#4e0b0b;
+    border-radius:15px;
 }
 
 ul.address {
     list-style-type:none;
     float:left;
     position:relative;
-    width:345px !important
+    width:345px !important;
+    background-color: #eee;
+    
 }
+
+
 #address_delivery {margin-right:35px;}
 #address_invoice {margin-right:0}
 #delivery_address {margin-right:65px;}
@@ -21,16 +28,17 @@ ul.address li {
     padding:0 15px;
     font-weight:bold;
     line-height:18px;
-    text-transform:uppercase
+    text-transform:uppercase;
+    color: $block-font-color;
 }
 
 ul.address li.address_title {
     height: 29px;
     font-weight: bold;
     line-height:29px;
-    color:#fff;
-    text-shadow:0 1px 0 #666;
-    background:url(../img/bg_table_th.png) repeat-x 0 -10px #999
+    color:$block-font-color;
+    /* text-shadow:0 1px 0 #666; */
+    background:url(../img/bg_table_th.png) repeat-x 0 -10px $menu-color;
 }
 ul.address .address_alias {
     font-weight: normal;
@@ -90,9 +98,9 @@ p.address_delivery, p.addressesAreEquals {
     height: 29px;
     font-weight: bold;
     line-height:29px;
-    color:#fff;
-    text-shadow:0 1px 0 #666;
-    background:url(../img/bg_table_th.png) repeat-x 0 -10px #999
+    color:$block-font-color;
+    /* text-shadow:0 1px 0 #666; */
+    background:url(../img/bg_table_th.png) repeat-x 0 -10px $menu-color;
 }
 .addresses ul.address .address_update {margin-top:20px}
 .addresses ul.address .address_update,

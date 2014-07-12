@@ -84,17 +84,22 @@
 	//]]>
 </script>
 	{if $productNumber}
-		<!-- Shopping Cart -->
+		<if false}
+                <!-- Shopping Cart -->
 		{include file="$tpl_dir./shopping-cart.tpl"}
 		<!-- End Shopping Cart -->
+                </if}
+                    
 		{if $isLogged AND !$isGuest}
                     {if false}
                     {include file="$tpl_dir./order-address.tpl"}
                     {/if}
 		{else}
+                        {if !($isLogged AND $isGuest)}
 			<!-- Create account / Guest account / Login block -->
 			{include file="$tpl_dir./order-opc-new-account.tpl"}
 			<!-- END Create account / Guest account / Login block -->
+                        {/if}
 		{/if}
 		<!-- Carrier -->
                 {if false}

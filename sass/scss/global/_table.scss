@@ -12,11 +12,11 @@ table.std th,
 table.table_block th {
     padding:14px 12px;
     font-size:12px;
-    color:#fff;
+    color:$block-font-color;
     font-weight:bold;
     text-transform:uppercase;
-    text-shadow:0 1px 0 #000;
-    background:url(../img/bg_table_th.png) repeat-x 0 0 #999
+    /* text-shadow:0 1px 0 #000; */
+    background:url(../img/bg_table_th.png) repeat-x 0 0 $menu-color;
 }
 table.std tr.alternate_item,
 table.table_block tr.alternate_item {background-color: #f3f3f3}

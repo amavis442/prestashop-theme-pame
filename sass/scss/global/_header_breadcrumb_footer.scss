@@ -1,3 +1,5 @@
+@import "../_constants.scss";
+
 /* ************************************************************************************************
                 HEADER
 ************************************************************************************************ */
@@ -21,7 +23,10 @@
 .breadcrumb {
     margin-bottom:10px;
     font-size:12px;
-    color: #FFFFFF;
+    color: $oldbackground-color;
+    background-color:$menu-color;
+    line-height:29px;
+    font-weight:bold;
 }
 
 .breadcrumb .navigation-pipe {margin:0 3px 0 5px}
@@ -31,7 +36,7 @@
 }
 
 .breadcrumb a {
-    color: #FFFFFF;
+    color: $block-font-color;
 }
 
 /* ************************************************************************************************

@@ -11,7 +11,7 @@
 .block .title_block, .block h4 {
     padding:6px 11px;
     font-size:12px;
-    color:$font-color;
+    color:$block-font-color;
     /* Wat een geouwehoer */
     /*text-shadow:0 1px 0 #000;*/
     text-transform:uppercase;
@@ -20,7 +20,7 @@
 }
 
 .block .title_block a, .block h4 a {
-    color:$font-color
+    color:$block-font-color;
 }
 
 .block ul {
@@ -64,7 +64,13 @@ ul.footer_links {
 
 ul.footer_links li {
     float:left;
+    color: #ddd;
 }
+
+ul.footer_links li a {
+    color: #ddd;
+}
+
 
 ul.footer_links li.f_right {
     float:right;

@@ -1,3 +1,9 @@
+@import "_constants.scss";
+
+#history {
+    color: $block-font-color;
+}
+
 #history #left_column {
     display: none
 }
@@ -13,7 +19,8 @@
 #history #center_column .title_block {
     margin: 20px 0;
     padding: 15px 20px;
-    background: #ccc
+    color:$block-font-color;
+    background: #ccc;
 }
 
 #history #center_column .title_block input {
@@ -22,8 +29,18 @@
     float: right;
 }
 
+.history.text{
+    color:#ddd;
+}
+
+
 .info-order {
     margin-bottom: 20px;
+    color:#ddd;
+}
+
+.info-order h3{
+   color:#ddd;
 }
 
 .info-order p {
@@ -45,10 +62,10 @@
 
 #order-list th {
     padding: 14px 12px;
-    color: #fff;
+    color: $block-font-color;
     text-transform: uppercase;
-    text-shadow: 0 1px 0 #000;
-    background: url(../img/bg_table_th.png) repeat-x 0 0 #999
+    /* text-shadow: 0 1px 0 #000; */
+    background: url(../img/bg_table_th.png) repeat-x 0 0 $menu-color;
 }
 
 #order-list tr.alternate_item {
@@ -105,7 +122,8 @@
 }
 
 #sendOrderMessage {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    color:#ddd;
 }
 
 #sendOrderMessage p {

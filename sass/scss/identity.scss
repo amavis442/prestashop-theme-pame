@@ -1,3 +1,5 @@
+@import "_constants.scss";
+
 #identity #left_column {
     display: none
 }
@@ -20,12 +22,13 @@
     padding: 10px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    border-radius: 3px;
+    border-radius: 15px;
     background: #eee;
+    color: $block-font-color;
 }
 
 #identity .std p.required {
-    color: #333
+    color: $block-font-color;
 }
 
 #identity .std p.text label,

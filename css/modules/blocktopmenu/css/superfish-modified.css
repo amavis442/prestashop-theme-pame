@@ -63,7 +63,7 @@ and open the template in the editor.
 .sf-menu a {
   display: block;
   position: relative;
-  color: #2210ff;
+  color: #4e0b0b;
   font-weight: bold;
   /*text-shadow:0 1px 0 #333;*/ }
 
@@ -118,7 +118,7 @@ ul.sf-menu li li li.sfHover ul {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/blocktopmenu\/css\/superfish-modified\.scss}line{font-family:\0000385}}
 .sf-menu a, .sf-menu a:visited {
   /* visited pseudo selector so IE6 applies text colour*/
-  color: #2210ff;
+  color: #4e0b0b;
   white-space: nowrap; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/blocktopmenu\/css\/superfish-modified\.scss}line{font-family:\0000389}}

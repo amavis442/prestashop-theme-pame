@@ -39,7 +39,7 @@
 .sf-menu a {
     display:		block;
     position:		relative;
-    color:$font-color;
+    color:$block-font-color;
     font-weight: bold;
     /*text-shadow:0 1px 0 #333;*/
 }
@@ -83,7 +83,7 @@ ul.sf-menu li li li.sfHover ul {
     text-decoration:none;
 }
 .sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
-    color:			$font-color;
+    color:			$block-font-color;
     white-space:nowrap;
 }
 .sf-menu li li {

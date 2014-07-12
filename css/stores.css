@@ -1,56 +1,67 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/stores\.scss}line{font-family:\000031}}
+/* line 1, ../sass/scss/stores.scss */
 #stores #center_colum label {
   display: inline-block;
   width: 150px;
   font-weight: bold;
-  text-align: right; }
+  text-align: right;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/stores\.scss}line{font-family:\000037}}
+/* line 7, ../sass/scss/stores.scss */
 input#addressInput {
   padding: 2px 5px;
   width: 300px;
-  border: 1px solid #cccccc; }
+  border: 1px solid #cccccc;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/stores\.scss}line{font-family:\0000312}}
+/* line 12, ../sass/scss/stores.scss */
 select#radiusSelect {
   margin: 0 5px 0 0;
   width: 50px;
-  border: 1px solid #cccccc; }
+  border: 1px solid #cccccc;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/stores\.scss}line{font-family:\0000318}}
+/* line 18, ../sass/scss/stores.scss */
 #stores_loader {
   display: none;
-  margin-left: 5px; }
+  margin-left: 5px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/stores\.scss}line{font-family:\0000323}}
+/* line 23, ../sass/scss/stores.scss */
 #locationSelect {
   visibility: hidden;
   width: 400px;
-  border: 1px solid #cccccc; }
+  border: 1px solid #cccccc;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/stores\.scss}line{font-family:\0000329}}
+/* line 29, ../sass/scss/stores.scss */
 #stores #center_column p .button {
-  float: right; }
+  float: right;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/stores\.scss}line{font-family:\0000331}}
+/* line 31, ../sass/scss/stores.scss */
 #map {
   margin: 15px auto;
   height: 375px;
-  width: 535px; }
+  width: 535px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/stores\.scss}line{font-family:\0000337}}
+/* line 37, ../sass/scss/stores.scss */
 #stores-table {
-  border-bottom: 1px solid #999; }
+  border-bottom: 1px solid #999;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/stores\.scss}line{font-family:\0000338}}
+/* line 38, ../sass/scss/stores.scss */
 #stores-table tr:nth-child(odd) {
-  background-color: #f3f3f3; }
+  background-color: #f3f3f3;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/stores\.scss}line{font-family:\0000339}}
+/* line 39, ../sass/scss/stores.scss */
 #stores-table td {
   border-top: 1px solid #ccc;
-  border-bottom: none; }
+  border-bottom: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/stores\.scss}line{font-family:\0000343}}
+/* line 43, ../sass/scss/stores.scss */
 #stores-table td.distance {
-  border-right: 1px solid #999; }
+  border-right: 1px solid #999;
+}

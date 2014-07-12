@@ -48,11 +48,11 @@
 }
 table#cart_summary th {
     padding:14px 12px;
-    color:#fff;
+    color:$block-font-color;
     font-weight:bold;
     text-transform:uppercase;
-    text-shadow:0 1px 0 #666;
-    background:url(../img/bg_table_th.png) repeat-x 0 -15px #999
+    /* text-shadow:0 1px 0 #666; */
+    background:url(../img/bg_table_th.png) repeat-x 0 -15px $menu-color
 }
 table#cart_summary  th.cart_product {text-align:center}
 table#cart_summary  td {
@@ -227,9 +227,9 @@ table#cart_summary .cart_total_price .total_price_container {
     display:block;
     padding:8px;
     font-weight:bold;
-    color:#fff;
+    color:$block-font-color;
     text-transform:uppercase;
-    background:#333
+    background:$menu-color;
 }
 .cart_total_price .total_price_container span {
     display:block;
@@ -286,7 +286,10 @@ table#cart_summary .gift-icon {
     height: 20em;
     width: 49%;
 }
-#create-account_form {margin-right: 11px;}
+#create-account_form {
+    margin-right: 11px;
+    margin-bottom:10px;
+}
 
 #authentication #create-account_form fieldset,
 #authentication #login_form fieldset {
@@ -305,9 +308,9 @@ table#cart_summary .gift-icon {
     border-bottom:1px solid #ccc;
     font-weight:bold;
     font-size:12px;
-    color:#eee;
+    color:$block-font-color;
     text-transform:uppercase;
-    background:url(../img/bg_form_h3.png) repeat-x 0 0 #989898
+    background:url(../img/bg_table_th.png) repeat-x 0 0 $menu-color
 }
 #create-account_form .title_block  {
     padding-bottom:22px;
@@ -344,14 +347,8 @@ table#cart_summary .gift-icon {
 
 #create-account_form #SubmitCreate,
 #login_form #SubmitLogin {
-    float:right
+    float:right;
 }
-
-.lost_password {
-    float:left;
-    width:200px
-}
-.lost_password a {color:#eee}
 
 #order-opc .lost_password {
     display:block;
@@ -361,6 +358,20 @@ table#cart_summary .gift-icon {
     font-size:11px;
     color:#4e0b0b;
 }
+
+.lost_password {
+    float:left;
+    width:200px
+}
+.lost_password a,a:active,a:visited {
+    color:#ddd;
+}
+
+p.lost_password a{
+    color:#ddd;
+}
+
+
 
 #ordermsg p {padding-bottom:0}
 #ordermsg p.txt {

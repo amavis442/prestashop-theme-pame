@@ -1,3 +1,5 @@
+@import "_constants.scss";
+
 #my-account  #left_column {display:none}
 #my-account #center_column {width:757px}
 #my-account #center_column h1 {margin-bottom:20px}
@@ -8,14 +10,21 @@
     color:#ddd;
 }
 
-#my-account .myaccount_lnk_list {list-style-type:none}
+#my-account .myaccount_lnk_list {
+    list-style-type:none;
+    background-color: #ddd;
+    padding:20px;
+    
+    border-radius:15px;
+}
+
 #my-account .myaccount_lnk_list li {
     font-size:13px;
     line-height:36px;
     color: #ddd;
 }
 #my-account .myaccount_lnk_list li a {
-    color: #ddd;
+    color: $block-font-color;
 }
 
 #my-account .myaccount_lnk_list img.icon,

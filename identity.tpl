@@ -120,7 +120,9 @@
 				<input type="submit" class="button" name="submitIdentity" value="{l s='Save'}" />
 			</p>
 			<p id="security_informations">
+                            {if false}
 				{l s='[Insert customer data privacy clause here, if applicable]'}
+                            {/if}
 			</p>
 		</fieldset>
 	</form>

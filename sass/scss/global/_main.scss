@@ -37,7 +37,10 @@ a {cursor:pointer}
 /* ************************************************************************************************
                 structure
 ************************************************************************************************ */
-#page {}
+#page {
+    background-color:$oldbackground-color;
+    padding:3px 5px;
+}
 #header {z-index:10}
 #columns {z-index:1}
 #left_column {}

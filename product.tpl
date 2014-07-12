@@ -336,7 +336,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				<span class="editable">{$product->reference|escape:'htmlall':'UTF-8'}</span>
 			</p>
                         
-                        {hook h='displayDatePicker' product=$product}
+
                         <!-- quantity wanted -->
 			<p id="quantity_wanted_p"{if (!$allow_oosp && $product->quantity <= 0) OR $virtual OR !$product->available_for_order OR $PS_CATALOG_MODE} style="display: none;"{/if}>
 				<label>{l s='Quantity:'}</label>
@@ -451,8 +451,13 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 		{/if}
 		{if isset($HOOK_EXTRA_RIGHT) && $HOOK_EXTRA_RIGHT}{$HOOK_EXTRA_RIGHT}{/if}
 	</div>
-</div>
+    </div>    
+         
+        <div id='booking'>
+           {hook h='displayBookingDatePicker' product=$product}
+        </div>
 
+                
 {if (isset($quantity_discounts) && count($quantity_discounts) > 0)}
 <!-- quantity discount -->
 <ul class="idTabs clearfix">

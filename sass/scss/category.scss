@@ -1,3 +1,5 @@
+@import "_constants.scss";
+
 h1{margin-bottom:10px;}
 
 .resumecat {
@@ -37,10 +39,10 @@ h1{margin-bottom:10px;}
 #subcategories h3 {
     padding:14px 12px;
     font-size:13px;
-    color:#fff;
+    color:$block-font-color;
     text-transform:uppercase;
-    text-shadow:0 1px 0 #666;
-    background:url(../img/bg_table_th.png) repeat-x 0 0 #999
+    /* text-shadow:0 1px 0 $block-font-color; */
+    background:url(../img/bg_table_th.png) repeat-x 0 0 $menu-color
 }
 
 .inline_list {
