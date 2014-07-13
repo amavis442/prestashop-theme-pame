@@ -7,15 +7,12 @@
 */
 /* Containers
 ----------------------------------------------------------------------------------------------------*/
-/* line 11, ../sass/scss/grid_prestashop.scss */
 .container_9 {
   margin: 0 auto;
-  width: 980px;
-}
+  width: 980px; }
 
 /* Grid >> Global
 ----------------------------------------------------------------------------------------------------*/
-/* line 27, ../sass/scss/grid_prestashop.scss */
 .grid_1,
 .grid_2,
 .grid_3,
@@ -28,248 +25,159 @@
   display: inline;
   float: left;
   position: relative;
-  margin-right: 20px;
-}
+  margin-right: 20px; }
 
 /* Grid >> Children (Alpha ~ First, Omega ~ Last)
 ----------------------------------------------------------------------------------------------------*/
-/* line 37, ../sass/scss/grid_prestashop.scss */
 .alpha {
-  margin-left: 0;
-}
+  margin-left: 0; }
 
-/* line 38, ../sass/scss/grid_prestashop.scss */
 .omega {
-  margin-right: 0;
-}
+  margin-right: 0; }
 
 /* Grid >> 9 Columns
 ----------------------------------------------------------------------------------------------------*/
-/* line 43, ../sass/scss/grid_prestashop.scss */
 .container_9 .grid_1 {
-  width: 91px;
-}
+  width: 91px; }
 
-/* line 44, ../sass/scss/grid_prestashop.scss */
 .container_9 .grid_2 {
-  width: 202px;
-}
+  width: 202px; }
 
-/* line 45, ../sass/scss/grid_prestashop.scss */
 .container_9 .grid_3 {
-  width: 313px;
-}
+  width: 313px; }
 
-/* line 46, ../sass/scss/grid_prestashop.scss */
 .container_9 .grid_4 {
-  width: 424px;
-}
+  width: 424px; }
 
-/* line 47, ../sass/scss/grid_prestashop.scss */
 .container_9 .grid_5 {
-  width: 535px;
-}
+  width: 535px; }
 
-/* line 48, ../sass/scss/grid_prestashop.scss */
 .container_9 .grid_6 {
-  width: 646px;
-}
+  width: 646px; }
 
-/* line 49, ../sass/scss/grid_prestashop.scss */
 .container_9 .grid_7 {
-  width: 757px;
-}
+  width: 757px; }
 
-/* line 50, ../sass/scss/grid_prestashop.scss */
 .container_9 .grid_8 {
-  width: 868px;
-}
+  width: 868px; }
 
-/* line 51, ../sass/scss/grid_prestashop.scss */
 .container_9 .grid_9 {
-  width: 980px;
-}
+  width: 980px; }
 
 /* Prefix Extra Space >> 9 Columns
 ----------------------------------------------------------------------------------------------------*/
-/* line 56, ../sass/scss/grid_prestashop.scss */
 .container_9 .prefix_1 {
-  padding-left: 111px;
-}
+  padding-left: 111px; }
 
-/* line 57, ../sass/scss/grid_prestashop.scss */
 .container_9 .prefix_2 {
-  padding-left: 222px;
-}
+  padding-left: 222px; }
 
-/* line 58, ../sass/scss/grid_prestashop.scss */
 .container_9 .prefix_3 {
-  padding-left: 333px;
-}
+  padding-left: 333px; }
 
-/* line 59, ../sass/scss/grid_prestashop.scss */
 .container_9 .prefix_4 {
-  padding-left: 444px;
-}
+  padding-left: 444px; }
 
-/* line 60, ../sass/scss/grid_prestashop.scss */
 .container_9 .prefix_5 {
-  padding-left: 555px;
-}
+  padding-left: 555px; }
 
-/* line 61, ../sass/scss/grid_prestashop.scss */
 .container_9 .prefix_6 {
-  padding-left: 666px;
-}
+  padding-left: 666px; }
 
-/* line 62, ../sass/scss/grid_prestashop.scss */
 .container_9 .prefix_7 {
-  padding-left: 777px;
-}
+  padding-left: 777px; }
 
-/* line 63, ../sass/scss/grid_prestashop.scss */
 .container_9 .prefix_8 {
-  padding-left: 888px;
-}
+  padding-left: 888px; }
 
 /* Suffix Extra Space >> 9 Columns
 ----------------------------------------------------------------------------------------------------*/
-/* line 68, ../sass/scss/grid_prestashop.scss */
 .container_9 .suffix_1 {
-  padding-right: 111px;
-}
+  padding-right: 111px; }
 
-/* line 69, ../sass/scss/grid_prestashop.scss */
 .container_9 .suffix_2 {
-  padding-right: 222px;
-}
+  padding-right: 222px; }
 
-/* line 70, ../sass/scss/grid_prestashop.scss */
 .container_9 .suffix_3 {
-  padding-right: 333px;
-}
+  padding-right: 333px; }
 
-/* line 71, ../sass/scss/grid_prestashop.scss */
 .container_9 .suffix_4 {
-  padding-right: 444px;
-}
+  padding-right: 444px; }
 
-/* line 72, ../sass/scss/grid_prestashop.scss */
 .container_9 .suffix_5 {
-  padding-right: 555px;
-}
+  padding-right: 555px; }
 
-/* line 73, ../sass/scss/grid_prestashop.scss */
 .container_9 .suffix_6 {
-  padding-right: 666px;
-}
+  padding-right: 666px; }
 
-/* line 74, ../sass/scss/grid_prestashop.scss */
 .container_9 .suffix_7 {
-  padding-right: 777px;
-}
+  padding-right: 777px; }
 
-/* line 75, ../sass/scss/grid_prestashop.scss */
 .container_9 .suffix_8 {
-  padding-right: 888px;
-}
+  padding-right: 888px; }
 
 /* Push Space >> 9 Columns
 ----------------------------------------------------------------------------------------------------*/
-/* line 80, ../sass/scss/grid_prestashop.scss */
 .container_9 .push_1 {
-  left: 111px;
-}
+  left: 111px; }
 
-/* line 81, ../sass/scss/grid_prestashop.scss */
 .container_9 .push_2 {
-  left: 222px;
-}
+  left: 222px; }
 
-/* line 82, ../sass/scss/grid_prestashop.scss */
 .container_9 .push_3 {
-  left: 333px;
-}
+  left: 333px; }
 
-/* line 83, ../sass/scss/grid_prestashop.scss */
 .container_9 .push_4 {
-  left: 444px;
-}
+  left: 444px; }
 
-/* line 84, ../sass/scss/grid_prestashop.scss */
 .container_9 .push_5 {
-  left: 555px;
-}
+  left: 555px; }
 
-/* line 85, ../sass/scss/grid_prestashop.scss */
 .container_9 .push_6 {
-  left: 666px;
-}
+  left: 666px; }
 
-/* line 86, ../sass/scss/grid_prestashop.scss */
 .container_9 .push_7 {
-  left: 777px;
-}
+  left: 777px; }
 
-/* line 87, ../sass/scss/grid_prestashop.scss */
 .container_9 .push_8 {
-  left: 888px;
-}
+  left: 888px; }
 
 /* Pull Space >> 9 Columns
 ----------------------------------------------------------------------------------------------------*/
-/* line 92, ../sass/scss/grid_prestashop.scss */
 .container_9 .pull_1 {
-  left: -111px;
-}
+  left: -111px; }
 
-/* line 93, ../sass/scss/grid_prestashop.scss */
 .container_9 .pull_2 {
-  left: -222px;
-}
+  left: -222px; }
 
-/* line 94, ../sass/scss/grid_prestashop.scss */
 .container_9 .pull_3 {
-  left: -333px;
-}
+  left: -333px; }
 
-/* line 95, ../sass/scss/grid_prestashop.scss */
 .container_9 .pull_4 {
-  left: -444px;
-}
+  left: -444px; }
 
-/* line 96, ../sass/scss/grid_prestashop.scss */
 .container_9 .pull_5 {
-  left: -555px;
-}
+  left: -555px; }
 
-/* line 97, ../sass/scss/grid_prestashop.scss */
 .container_9 .pull_6 {
-  left: -666px;
-}
+  left: -666px; }
 
-/* line 98, ../sass/scss/grid_prestashop.scss */
 .container_9 .pull_7 {
-  left: -777px;
-}
+  left: -777px; }
 
-/* line 99, ../sass/scss/grid_prestashop.scss */
 .container_9 .pull_8 {
-  left: -888px;
-}
+  left: -888px; }
 
 /* Clear Floated Elements
 ----------------------------------------------------------------------------------------------------*/
 /* http://sonspring.com/journal/clearing-floats */
-/* line 106, ../sass/scss/grid_prestashop.scss */
 .clear {
   /*clear: both;
   display: block;
   overflow: hidden;
   visibility: hidden;
   width: 0;
-  height: 0;*/
-}
+  height: 0;*/ }
 
 /* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack
 

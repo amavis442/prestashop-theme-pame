@@ -1,15 +1,11 @@
-/* line 1, ../sass/scss/maintenance.scss */
 #maintenance {
   margin: 0 auto;
   width: 940px;
   font: normal 30px Arial, Verdana, sans-serif;
-  color: #333;
-}
+  color: #333; }
 
-/* line 7, ../sass/scss/maintenance.scss */
 #maintenance #message {
   margin: 0 20px;
   padding: 50px 310px 0 0;
   height: 360px;
-  background: url(../img/bg_maintenance.png) no-repeat 100% 0 white;
-}
+  background: url(../img/bg_maintenance.png) no-repeat 100% 0 white; }

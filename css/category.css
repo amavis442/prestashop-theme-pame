@@ -12,18 +12,15 @@ and open the template in the editor.
 255,194,158
 174,225,212
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\000033}}
 h1 {
   margin-bottom: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\000035}}
 .resumecat {
   margin: 15px 0 10px 0;
   padding: 8px 7px;
   color: #000;
   background: #f0f0f0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000312}}
 .content_scene_cat {
   padding: 5px;
   border: 1px solid #ccc;
@@ -34,16 +31,13 @@ h1 {
   -webkit-box-shadow: 0 1px 1px #e2e2e2;
   box-shadow: 0 1px 1px #e2e2e2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000323}}
 .cat_desc {
   font-size: 12px;
   line-height: 18px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000327}}
 .cat_desc p {
   padding: 0 10px 5px 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000328}}
 .cat_desc .lnk_more {
   padding: 0 10px;
   color: #0088CC;
@@ -52,11 +46,9 @@ h1 {
 /* ************************************************************************************************
       SUB CATEGORIES
 ************************************************************************************************ */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000338}}
 #subcategories {
   margin-top: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000339}}
 #subcategories h3 {
   padding: 14px 12px;
   font-size: 13px;
@@ -65,26 +57,21 @@ h1 {
   /* text-shadow:0 1px 0 $block-font-color; */
   background: url(../img/bg_table_th.png) repeat-x 0 0 #ffc766; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000348}}
 .inline_list {
   list-style-type: none;
   margin-top: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000352}}
 .inline_list li {
   padding: 10px 0;
   border-bottom: 1px dotted #cccccc; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000356}}
 .inline_list li .img {
   float: left;
   margin-right: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000360}}
 .inline_list li img {
   border: 1px solid #cccccc; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/category\.scss}line{font-family:\0000363}}
 .inline_list li .cat_name {
   font-weight: bold;
   font-size: 13px; }

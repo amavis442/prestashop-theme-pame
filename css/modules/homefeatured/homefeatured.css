@@ -12,18 +12,15 @@ and open the template in the editor.
 255,194,158
 174,225,212
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/homefeatured\/homefeatured\.scss}line{font-family:\000033}}
 #featured-products_block_center li {
   margin-right: 10px;
   padding: 10px 0;
   width: 126px;
   height: 240px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/homefeatured\/homefeatured\.scss}line{font-family:\000039}}
 #featured-products_block_center li.last_item_of_line {
   margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/homefeatured\/homefeatured\.scss}line{font-family:\0000310}}
 #featured-products_block_center .s_title_block, #featured-products_block_center h5 {
   padding-top: 5px;
   height: 30px;
@@ -35,13 +32,11 @@ and open the template in the editor.
   padding-bottom: 0;
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/homefeatured\/homefeatured\.scss}line{font-family:\0000322}}
 #featured-products_block_center .product_image {
   display: block;
   position: relative;
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/homefeatured\/homefeatured\.scss}line{font-family:\0000327}}
 #featured-products_block_center .product_image span.new {
   display: block;
   position: absolute;
@@ -61,19 +56,16 @@ and open the template in the editor.
   transform: rotate(45deg);
   /* Newer browsers */ }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/homefeatured\/homefeatured\.scss}line{font-family:\0000346}}
 #featured-products_block_center .product_desc {
   height: 45px;
   min-height: 45px;
   max-height: 45px;
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/homefeatured\/homefeatured\.scss}line{font-family:\0000353}}
 #featured-products_block_center .product_desc,
 #featured-products_block_center .product_desc a {
   color: #666666; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/homefeatured\/homefeatured\.scss}line{font-family:\0000356}}
 #featured-products_block_center .lnk_more {
   display: inline;
   padding-right: 10px;
@@ -82,21 +74,17 @@ and open the template in the editor.
   color: #fefeff;
   background: url("/themes/pame/img/arrow_right_3.png") no-repeat 100% 3px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/homefeatured\/homefeatured\.scss}line{font-family:\0000364}}
 #featured-products_block_center .price_container {
   margin-top: 10px;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/homefeatured\/homefeatured\.scss}line{font-family:\0000368}}
 #featured-products_block_center .price {
   font-weight: bold;
   font-size: 14px;
   color: #990000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/homefeatured\/homefeatured\.scss}line{font-family:\0000373}}
 #featured-products_block_center li .ajax_add_to_cart_button {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/modules\/homefeatured\/homefeatured\.scss}line{font-family:\0000374}}
 #featured-products_block_center li span.exclusive {
   display: none; }

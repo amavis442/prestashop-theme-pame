@@ -42,7 +42,7 @@
 </div>
 {/if}
 
-
+<script src="/themes/pame/js/bootstrap.min.js"></script>
 
 </body>
 </html>

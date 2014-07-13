@@ -12,24 +12,19 @@ and open the template in the editor.
 255,194,158
 174,225,212
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\000033}}
 #identity #left_column {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\000037}}
 #identity #center_column {
   width: 757px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000311}}
 #identity h3 {
   font-weight: normal;
   font-size: 13px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000316}}
 #identity p {
   padding-bottom: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000320}}
 #identity form.std fieldset {
   margin-top: 0;
   padding: 10px;
@@ -39,11 +34,9 @@ and open the template in the editor.
   background: #eee;
   color: #4e0b0b; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000330}}
 #identity .std p.required {
   color: #4e0b0b; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000336}}
 #identity .std p.text label,
 #identity .std p.password label,
 #identity .std p.select label {
@@ -55,13 +48,11 @@ and open the template in the editor.
   font-size: 12px;
   text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000347}}
 #identity .std p.text label sup,
 #identity .std p.password label sup,
 #identity .std p.select label sup {
   color: #990000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000352}}
 #identity .std p.text input,
 #identity .std p.password input {
   padding: 0 5px;
@@ -71,11 +62,9 @@ and open the template in the editor.
   border: 1px solid #ccc;
   background: url(../img/bg_input.png) repeat-x 0 0 white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000360}}
 #identity .std p.select select {
   border: 1px solid #ccc; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000364}}
 #identity .std p.radio span {
   display: inline-block;
   padding-right: 10px;
@@ -85,7 +74,6 @@ and open the template in the editor.
   font-size: 12px;
   text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000373}}
 #identity .std p.radio input {
   padding: 0 5px;
   height: auto;
@@ -95,22 +83,18 @@ and open the template in the editor.
   position: relative;
   bottom: -3px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000383}}
 #identity .std p.checkbox input {
   position: relative;
   top: 2px;
   left: 0;
   margin: 0 2px 0 187px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000390}}
 #identity .std p.submit {
   padding: 10px 0 20px 187px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000394}}
 #identity .std p.submit .button {
   padding: 5px 25px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/identity\.scss}line{font-family:\0000398}}
 #identity .std #security_informations {
   padding: 0 0 0 187px;
   font-size: 11px; }

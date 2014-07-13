@@ -1,13 +1,9 @@
 /* CMS pages ****************************************************************************** */
-/* line 4, ../sass/scss/cms.scss */
 #cms #center_column ul,
 #cms #center_column ol,
 #cms #center_column dl {
   margin-left: 25px;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
-/* line 5, ../sass/scss/cms.scss */
 #cms #center_column li {
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }

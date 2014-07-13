@@ -12,38 +12,30 @@ and open the template in the editor.
 255,194,158
 174,225,212
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\000033}}
 #orderopc #left_column {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\000034}}
 #orderopc #center_column {
   width: 757px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\000035}}
 #orderopc #left_column h2 {
   margin-top: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\000036}}
 #opc_account_choice {
   padding: 0 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\000037}}
 #opc_account_choice .opc_float {
   float: left;
   width: 350px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000311}}
 #opc_account_choice .opc_float ul {
   margin: 0 0 20px 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000312}}
 #new_account_form fieldset {
   padding: 0 0 15px 0;
   border: 1px solid #ccc;
   background: #f8f8f8; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000317}}
 #new_account_form h3 {
   margin: 0 0 15px 0;
   padding: 8px;
@@ -52,25 +44,20 @@ and open the template in the editor.
   text-transform: uppercase;
   background: url(../img/bg_table_th.png) repeat-x 0 0 #ffc766; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000325}}
 #center_column #new_account_form p {
   margin: 0;
   padding: 0 0 10px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000326}}
 #new_account_form p.required {
   color: #222; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000327}}
 #new_account_form p.required sup {
   color: #990000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000329}}
 #new_account_form p.radio label {
   padding-right: 10px;
   font-size: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000338}}
 #new_account_form p.radio span,
 #new_account_form p.text label,
 #new_account_form p.password label,
@@ -84,11 +71,9 @@ and open the template in the editor.
   font-size: 14px;
   text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000345}}
 #new_account_form p.checkbox label {
   font-size: 12px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000350}}
 #new_account_form p.text input,
 #new_account_form p.password input,
 #new_account_form p.select input {
@@ -100,18 +85,15 @@ and open the template in the editor.
   font-size: 12px;
   color: #666666; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000358}}
 #new_account_form p.checkbox input {
   margin-left: 260px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000361}}
 #new_account_form p.select select {
   margin-right: 10px;
   border: 1px solid #ccc;
   font-size: 12px;
   color: #666666; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000367}}
 #new_account_form p.textarea textarea {
   height: 80px;
   width: 370px;
@@ -119,29 +101,24 @@ and open the template in the editor.
   font-size: 12px;
   color: #666666; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000375}}
 #new_account_form span.form_info,
 #new_account_form span.inline-infos, #new_account_form p.inline-infos {
   display: block;
   margin: 5px 0 0 265px !important;
   color: #666666; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000380}}
 #new_account_form .id_state, #new_account_form .dni, #new_account_form .postcode {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000383}}
 #opc_account_errors {
   margin: 10px;
   margin-bottom: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000387}}
 #center_column #new_account_form p#opc_account_saved {
   color: green;
   float: right;
   margin-right: 20px;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/patrick\/wd1tera\/projecten\/websites\/sites\/live\/pameairways\/domains\/pameairways\.nl\/public_html\/themes\/pame\/sass\/scss\/order-opc\.scss}line{font-family:\0000393}}
 #address_invoice_form {
   padding: 0px; }
