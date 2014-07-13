@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 " lang="{$lang_iso}"> <![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="{$lang_iso}"> <![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="{$lang_iso}"> <![endif]-->
@@ -12,8 +12,6 @@
         {if isset($meta_keywords) AND $meta_keywords}
             <meta name="keywords" content="{$meta_keywords|escape:html:'UTF-8'}" />
         {/if}
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-            
         <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
         <meta http-equiv="content-language" content="{$meta_language}" />
         <meta name="generator" content="PrestaShop" />
@@ -29,7 +27,6 @@
                     var priceDisplayMethod = {$priceDisplay};
                     var roundMode = {$roundMode};
         </script>
-        <!-- // <link href="/themes/pame/css/bootstrap.css" rel="stylesheet"> //-->
         {if isset($css_files)}
             {foreach from=$css_files key=css_uri item=media}
                 <link href="{$css_uri}" rel="stylesheet" type="text/css" media="{$media}" />
@@ -50,8 +47,8 @@
                     <p>{l s='You cannot place a new order from your country.'} <span class="bold">{$geolocation_country}</span></p>
                 </div>
             {/if}
-            <div id='page' class="container_9 clearfix">
-                <div id='banner'>
+            <div id="page" class="container_9 clearfix">
+                <div id='banner' class='grid_12 omega'>
                     <img src='/themes/pame/img/banner.png'>
                 </div>
                 <!-- Header -->

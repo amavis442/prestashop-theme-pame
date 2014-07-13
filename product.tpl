@@ -1,28 +1,3 @@
-{*
-* 2007-2013 PrestaShop
-*
-* NOTICE OF LICENSE
-*
-* This source file is subject to the Academic Free License (AFL 3.0)
-* that is bundled with this package in the file LICENSE.txt.
-* It is also available through the world-wide-web at this URL:
-* http://opensource.org/licenses/afl-3.0.php
-* If you did not receive a copy of the license and are unable to
-* obtain it through the world-wide-web, please send an email
-* to license@prestashop.com so we can send you a copy immediately.
-*
-* DISCLAIMER
-*
-* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
-* versions in the future. If you wish to customize PrestaShop for your
-* needs please refer to http://www.prestashop.com for more information.
-*
-*  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2013 PrestaShop SA
-*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
-*  International Registered Trademark & Property of PrestaShop SA
-*}
-
 {include file="$tpl_dir./errors.tpl"}
 {if $errors|@count == 0}
 <script type="text/javascript">
@@ -254,21 +229,11 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			{/if}
 		</div>
 		{/if}
+        </div> 
 
-		{*{if isset($colors) && $colors}
-		<!-- colors -->
-		<div id="color_picker">
-			<p>{l s='Pick a color:' js=1}</p>
-			<div class="clear"></div>
-			<ul id="color_to_pick_list" class="clearfix">
-			{foreach from=$colors key='id_attribute' item='color'}
-				<li><a id="color_{$id_attribute|intval}" class="color_pick" style="background: {$color.value};" onclick="updateColorSelect({$id_attribute|intval});$('#wrapResetImages').show('slow');" title="{$color.name}">{if file_exists($col_img_dir|cat:$id_attribute|cat:'.jpg')}<img src="{$img_col_dir}{$id_attribute}.jpg" alt="{$color.name}" width="20" height="20" />{/if}</a></li>
-			{/foreach}
-			</ul>
-			<div class="clear"></div>
-		</div>
-		{/if}*}
-
+        
+        
+        <div  class="clear">
 		{if ($product->show_price AND !isset($restricted_country_mode)) OR isset($groups) OR $product->reference OR (isset($HOOK_PRODUCT_ACTIONS) && $HOOK_PRODUCT_ACTIONS)}
 		<!-- add to cart form-->
 		<form id="buy_block" {if $PS_CATALOG_MODE AND !isset($groups) AND $product->quantity > 0}class="hidden"{/if} action="{$link->getPageLink('cart')|escape:'html'}" method="post">
@@ -439,9 +404,15 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			{/if}
 			{*close if for show price*}
 			{/if}
+                        
+                        <div id='booking' class='rte'>
+                           {hook h='displayBookingDatePicker' product=$product}
+                        </div>
+        
+        
 			<p id="add_to_cart" {if (!$allow_oosp && $product->quantity <= 0) OR !$product->available_for_order OR (isset($restricted_country_mode) AND $restricted_country_mode) OR $PS_CATALOG_MODE}style="display:none"{/if} class="buttons_bottom_block">
 				<span></span>
-				<input type="submit" name="Submit" value="{l s='Add to cart'}" class="exclusive" />
+				<input type="submit" name="Submit" value="{l s='Boeken'}" class="exclusive" />
 			</p>
 			{if isset($HOOK_PRODUCT_ACTIONS) && $HOOK_PRODUCT_ACTIONS}{$HOOK_PRODUCT_ACTIONS}{/if}
 
@@ -451,11 +422,10 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 		{/if}
 		{if isset($HOOK_EXTRA_RIGHT) && $HOOK_EXTRA_RIGHT}{$HOOK_EXTRA_RIGHT}{/if}
 	</div>
-    </div>    
+
+</div>    
          
-        <div id='booking'>
-           {hook h='displayBookingDatePicker' product=$product}
-        </div>
+
 
                 
 {if (isset($quantity_discounts) && count($quantity_discounts) > 0)}
