@@ -698,6 +698,9 @@ and open the template in the editor.
   position: relative;
   float: right; }
 
+.grid_12.omega {
+  text-align: center; }
+
 /* ************************************************************************************************
                 BREADCRUMB
 ************************************************************************************************ */
@@ -2510,3 +2513,15 @@ tr.subitem > td:first-child + td {
   top: 110px;
   right: 0;
   width: 94%; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 15, 2014, 12:28:43 PM
+    Author     : patrick
+*/
+#header_user_info a.pame-login {
+  background: url("/themes/pame/img/icomoon/16px/user.png") no-repeat 10px 0 rgba(0, 0, 0, 0); }
