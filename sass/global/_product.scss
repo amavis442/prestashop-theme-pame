@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 15, 2014, 1:12:16 PM
+    Author     : patrick
+*/
+
+#featured-products_block_center .pame-price {
+    color: #f3f3f3;
+    font-size: 14px;
+    font-weight: bold;
+    
+    background: url("../img/bg_bt.gif") repeat-x scroll 0 0 #f4b61b;
+    border: 1px solid #cc9900;
+    border-radius: 3px !important;
+    color: #000;
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px 7px;
+    position: relative;
+}
+
+#featured-products_block_center .product_desc, #featured-products_block_center .pame-product_desc a {
+    color: #f6f6f6;
+}
